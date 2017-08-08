@@ -9,7 +9,7 @@
 	<url>http://maven.apache.org</url>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<springVersion>4.0.7.RELEASE</springVersion>
+		<springVersion>4.3.4.RELEASE</springVersion>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -17,10 +17,11 @@
 			<artifactId>spring-webmvc</artifactId>
 			<version>${springVersion}</version>
 		</dependency>
+		<!-- xml -->
 		<dependency>
-			<groupId>com.fasterxml.jackson.core</groupId>
-			<artifactId>jackson-databind</artifactId>
-			<version>2.4.6.1</version>
+			<groupId>com.fasterxml.jackson.dataformat</groupId>
+			<artifactId>jackson-dataformat-xml</artifactId>
+			<version>2.7.4</version>
 		</dependency>
 	</dependencies>
 	<build>
